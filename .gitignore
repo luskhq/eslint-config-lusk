@@ -1,0 +1,9 @@
+# npm stuff
+node_modules
+*.log
+
+# OS junk
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes

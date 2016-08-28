@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-lusk",
+  "description": "ESLint configs used at Lusk",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luskhq/eslint-config-lusk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luskhq/eslint-config-lusk/issues"
+  },
+  "homepage": "https://github.com/luskhq/eslint-config-lusk",
+  "author": "Artur Muller <me@arturmuller.com> (http://arturmuller.com)",
+  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "peerDepencencies": {
+    "eslint": "^3.1.0"
+  }
+}
