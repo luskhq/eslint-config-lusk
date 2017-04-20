@@ -23,16 +23,26 @@ module.exports = {
     'no-var': 'error',
 
     // Warnings
-    quotes: ['warn', 'double'],
     'array-bracket-spacing': ['warn', 'never'],
-    'object-curly-spacing': ['warn', 'always'],
+    'comma-dangle': [
+      'warn',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never',
+      },
+    ],
     'no-console': 'warn',
     'no-constant-condition': 'warn',
     'no-fallthrough': 'warn',
     'no-unneeded-ternary': 'warn',
+    'object-curly-spacing': ['warn', 'always'],
     'object-shorthand': 'warn',
     'prefer-arrow-callback': 'warn',
     'prefer-const': 'warn',
     'prefer-spread': 'warn',
+    quotes: ['warn', 'double'],
   },
 };
