@@ -18,7 +18,7 @@ module.exports = {
     'no-lone-blocks': 'error',
     'no-sparse-arrays': 'error',
     'no-undef': 'error',
-    'no-unused-vars': 'error',
+    'no-unused-vars': ['error', {varsIgnorePattern: '^_omit'}],
     'no-use-before-define': ['error', 'nofunc'],
     'no-var': 'error',
 
