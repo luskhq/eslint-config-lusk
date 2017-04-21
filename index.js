@@ -13,6 +13,7 @@ module.exports = {
     'no-empty': 'error',
     'no-eval': 'error',
     'no-extend-native': 'error',
+    'no-extra-parens': ['error', 'all', {ignoreJSX: 'multi-line'}],
     'no-func-assign': 'error',
     'no-labels': 'error',
     'no-lone-blocks': 'error',
