@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-lusk",
   "description": "ESLint configs used at Lusk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/luskhq/eslint-config-lusk.git"
