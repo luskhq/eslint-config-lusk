@@ -4,12 +4,11 @@
 
 [ESLint](http://eslint.org/) configs used at [Lusk](https://lusk.io).
 
+> :warning: If you're using `eslint-config-lusk` ^3.0.0 in Node without transpilation, make sure you're using Node ^8.0.0! Trailing commas in function params and args lists will be a syntax error otherwise. [See compatibility table](http://bit.ly/2yUBYxp).
+
 ## Installation
 
 ```sh
-# Using yarn
-yarn add --dev eslint-config-lusk
-
 # Using npm
 npm install --save-dev eslint-config-lusk
 ```
